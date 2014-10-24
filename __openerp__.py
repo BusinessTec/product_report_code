@@ -25,16 +25,16 @@
     'author': 'Business Tec Systems',
     'summary': 'Creates a fields margin% and (read only) price for calculating product price to be used in pricelist',
     'description': """
-Cost Plus Pricing
+Multiply Prices
 =======================
-Creates a fields margin% and (read only) price for calculating product price to be used in pricelist
+Creates 3 prices (base version only provides one for user interfaces
     """,
     'website': 'https://businesstec.net',
     'images': [],
     'depends': ['product', 'sale'],
     'sequence': 18,
     'data': [
-        'cost_plus_price.xml',
+        'mg_price.xml',
     ],
     'installable': True,
     'auto_install': False,
