@@ -19,6 +19,6 @@
 #
 ##############################################################################
 
-import cost_plus_price
+import mg_price
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
