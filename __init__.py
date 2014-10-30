@@ -19,6 +19,6 @@
 #
 ##############################################################################
 
-import code
+import code_d1
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
