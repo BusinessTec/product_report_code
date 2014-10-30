@@ -20,11 +20,10 @@
 ##############################################################################
 
 {
-    'name': 'Multiply Price',
+    'name': 'Codes for Reporting',
     'version': '1.0',
     'author': 'Business Tec Systems',
-    'summary': 'Creates a fields margin% and (read only) price for calculating product price to be used in pricelist',
-    'description': """
+    'summary': 'Code used later for special reports': """
 Multiply Prices
 =======================
 Creates 3 prices (base version only provides one for user interfaces
@@ -34,7 +33,7 @@ Creates 3 prices (base version only provides one for user interfaces
     'depends': ['product', 'sale'],
     'sequence': 18,
     'data': [
-        'mg_price.xml',
+        'code.xml',
     ],
     'installable': True,
     'auto_install': False,
