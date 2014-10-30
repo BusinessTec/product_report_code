@@ -19,6 +19,6 @@
 #
 ##############################################################################
 
-import mg_price
+import repo_code
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
