@@ -24,11 +24,11 @@
     'version': '1.0',
     'author': 'Business Tec Systems',
     'summary': 'Code used later for special reports': """
-Multiply Prices
-=======================
-Creates 3 prices (base version only provides one for user interfaces
+Codes for Reporting
+================
+Codes
     """,
-    'website': 'https://businesstec.net',
+    'website': 'http://businesstec.net',
     'images': [],
     'depends': ['product', 'sale'],
     'sequence': 18,
@@ -36,5 +36,5 @@ Creates 3 prices (base version only provides one for user interfaces
         'code.xml',
     ],
     'installable': True,
-    'auto_install': False,
+    'auto_install': True,
 }
