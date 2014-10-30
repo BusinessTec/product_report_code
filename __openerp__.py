@@ -33,7 +33,7 @@ Codes
     'depends': ['product', 'sale'],
     'sequence': 18,
     'data': [
-        'code.xml',
+        'code_d1.xml',
     ],
     'installable': True,
     'auto_install': True,
