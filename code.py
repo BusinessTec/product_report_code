@@ -10,14 +10,14 @@ class product_code_report(models.Model):
                                        ('A','Renta'),
                                        ('SP','Servicios profesionales'),
                                        ('M','Comisiones'),
-                                       ('I','Intereses')], string="D-151 Codigo")
+                                       ('I','Intereses')],string='D-151 - Venta', select=True),)
                                        
-	code_buy = fields.fields.selection([('V','Ventas de bienes y servicios'),
+	code_buy = fields.selection([('V','Ventas de bienes y servicios'),
                                        ('C','Compras de bienes y servicios'),
                                        ('A','Renta'),
                                        ('SP','Servicios profesionales'),
                                        ('M','Comisiones'),
-                                       ('I','Intereses')], string="D-151 Codigo")
+                                       ('I','Intereses')], string="D-151 Purchase")
 
 
 
